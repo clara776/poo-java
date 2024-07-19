@@ -20,7 +20,7 @@ public class Condicionais3 {
         var copo = sc.next();
         switch (copo) {
             case "comida", "bebida" -> System.out.println("Jogue na lixeira marrom");
-            case "plastico" -> System.out.println("Jogue na lixeira vermelha");
+            case "plástico" -> System.out.println("Jogue na lixeira vermelha");
             case "metal" -> System.out.println("Jogue na lixeira amarelo");
             case "vidro" -> System.out.println("Jogue na lixeira verde");
         }
