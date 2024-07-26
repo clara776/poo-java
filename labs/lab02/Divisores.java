@@ -11,22 +11,22 @@ public class Divisores {
         var numero = scanner.nextInt();
         
         
-        System.out.println("A quantidade de divisores de " + numero + " é " + contarDivisores(numero) + ".");
+        System.out.println("A quantidade de divisores de " + numero + " é  igual a " + Divisores(numero) + ".");
         
         scanner.close();
     }
 
-    public static int contarDivisores(int n) {
-        var quantidadeDivisores = 0;
+    public static int Divisores(int n) {
+        var Divisores = 0;
         
     
         for (int i = 1; i <= n; i++) {
         
             if (n % i == 0) {
-                quantidadeDivisores++;
+                Divisores++;
             }
         }
         
-        return quantidadeDivisores;
+        return Divisores;
     }
 }
